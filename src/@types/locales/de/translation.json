@@ -1,0 +1,17 @@
+{
+  "counter_one": "Die Sprache wurde erst ein mal gewechselt",
+  "counter_other": "Die Sprache wurde {{count}} mal gewechselt",
+  "description": {
+    "part1": "Ändere <1>src/App.js</1> und speichere um neu zu laden.",
+    "part2": "Lerne React"
+  },
+  "footer": {
+    "date": "Heute ist {{date, DATE_HUGE}}",
+    "date_afternoon": "Guten Tag! Es ist {{date, DATE_HUGE}}",
+    "date_evening": "Guten Abend! Heute war {{date, DATE_HUGE}}",
+    "date_morning": "Guten Morgen! Heute ist {{date, DATE_HUGE}} | Wünsche einen schönen Tag!"
+  },
+  "new": {
+    "key": "Dies wird automatisch hinzugefügt"
+  }
+}
