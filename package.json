@@ -32,7 +32,8 @@
     "downloadLocales": "locize download --project-id=0bbc223a-9aba-4a90-ab93-ab9d7bf7f780 --ver=latest --clean=true --path=./src/@types/locales",
     "toc": "i18next-resources-for-ts toc -i ./src/@types/locales/en -o ./src/@types/resources.ts",
     "merge": "i18next-resources-for-ts merge -i ./src/@types/locales/en -o ./src/@types/resources.json",
-    "resources-for-ts": "npm run downloadLocales && npm run merge && rm -rf ./src/@types/locales"
+    "resources-for-ts": "npm run downloadLocales && npm run merge && rm -rf ./src/@types/locales",
+    "resources-for-ts-toc": "npm run downloadLocales && npm run toc"
   },
   "eslintConfig": {
     "extends": [
