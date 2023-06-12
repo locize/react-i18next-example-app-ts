@@ -1,7 +1,7 @@
-import resources from './resources.json';
+import Resources from './resources.d.ts';
 
 declare module 'i18next' {
   interface CustomTypeOptions {
-    resources: typeof resources;
+    resources: Resources;
   }
 }

@@ -1,4 +1,4 @@
-{
+interface Resources {
   "translation": {
     "counter_one": "Changed language just once",
     "counter_other": "Changed language already {{count}} times",
@@ -17,3 +17,5 @@
     }
   }
 }
+
+export default Resources;
